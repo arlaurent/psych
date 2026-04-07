@@ -512,16 +512,6 @@ body {
     label.textContent = `${monthName.toUpperCase()} ${y}`;
     section.appendChild(label);
 
-    // Period annotation at start of month if applicable
-    const firstDay = monthDays[0];
-    const period = isInPeriod(firstDay.date);
-    if (period && firstDay.date.endsWith('-01')) {
-      const pl = document.createElement('div');
-      pl.className = 'period-label';
-      pl.textContent = period.label;
-      section.appendChild(pl);
-    }
-
     let currentPeriod = null;
     let bandDiv = null;
 
