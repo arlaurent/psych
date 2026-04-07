@@ -17,8 +17,10 @@
   --text-secondary: #999;
   --text-tertiary: #bbb;
   --border: #e8e4de;
-  --dose1: #d4952e;
-  --dose2: #3d8b5e;
+  --pill-18: #c4915a;
+  --pill-20: #6e9ebb;
+  --pill-36: #d4952e;
+  --pill-54: #8b5e99;
   --wellbeing-pos: #3d8b5e;
   --wellbeing-neg: #b84f47;
   --annotation-bg: #f5f0e8;
@@ -39,8 +41,10 @@
     --text-secondary: #888;
     --text-tertiary: #555;
     --border: #2a2a2a;
-    --dose1: #e8a838;
-    --dose2: #5db87a;
+    --pill-18: #d4a870;
+    --pill-20: #7eb3d4;
+    --pill-36: #e8a838;
+    --pill-54: #a87ab8;
     --wellbeing-pos: #5db87a;
     --wellbeing-neg: #d4645c;
     --annotation-bg: #1e1c18;
@@ -236,8 +240,10 @@ body {
   flex-shrink: 0;
 }
 
-.dot.d1 { background: var(--dose1); }
-.dot.d2 { background: var(--dose2); }
+.dot.mg-18 { background: var(--pill-18); }
+.dot.mg-20 { background: var(--pill-20); }
+.dot.mg-36 { background: var(--pill-36); }
+.dot.mg-54 { background: var(--pill-54); }
 
 .day-center {
   display: flex;
@@ -405,8 +411,10 @@ body {
 </header>
 
 <div class="legend">
-  <span class="legend-item"><span class="legend-dot" style="background:var(--dose1)"></span>Dose 1</span>
-  <span class="legend-item"><span class="legend-dot" style="background:var(--dose2)"></span>Dose 2</span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--pill-18)"></span>18mg</span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--pill-20)"></span>20mg <span style="opacity:0.6">Inspiral</span></span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--pill-36)"></span>36mg</span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--pill-54)"></span>54mg</span>
   <span class="legend-item"><span class="legend-dot" style="background:var(--focus-bar);width:16px;height:5px;border-radius:2px"></span>Focus</span>
   <span class="legend-item" style="color:var(--wellbeing-pos)">+wb</span>
   <span class="legend-item" style="color:var(--wellbeing-neg)">−wb</span>
@@ -557,18 +565,16 @@ body {
       numEl.textContent = dayNum;
       row.appendChild(numEl);
 
-      // Dose dots
+      // Dose dots — one per pill, colored by mg
       const dotsEl = document.createElement('div');
       dotsEl.className = 'dose-dots';
-      if (day.dose1mg) {
-        const d1 = document.createElement('span');
-        d1.className = 'dot d1';
-        dotsEl.appendChild(d1);
-      }
-      if (day.dose2mg) {
-        const d2 = document.createElement('span');
-        d2.className = 'dot d2';
-        dotsEl.appendChild(d2);
+      if (day.pills) {
+        for (const mg of day.pills) {
+          const dot = document.createElement('span');
+          dot.className = 'dot mg-' + mg;
+          dot.title = mg + 'mg';
+          dotsEl.appendChild(dot);
+        }
       }
       row.appendChild(dotsEl);
 
@@ -657,9 +663,10 @@ body {
     const dayName = d.toLocaleDateString('en', { weekday: 'short' });
     lines.push(`${dayName} ${formatDateShort(day.date)}`);
 
-    if (day.dose1mg) lines.push(`Dose 1: ${day.dose1mg}mg` + (day.dose1time ? ` @ ${day.dose1time}` : ''));
-    if (day.dose2mg) lines.push(`Dose 2: ${day.dose2mg}mg` + (day.dose2time ? ` @ ${day.dose2time}` : ''));
-    if (day.totalMg) lines.push(`Total: ${day.totalMg}mg`);
+    if (day.pills && day.pills.length) {
+      const pillStr = day.pills.map(mg => mg + 'mg' + (mg === 20 ? ' Inspiral' : '')).join(' + ');
+      lines.push(pillStr + ' = ' + day.totalMg + 'mg');
+    }
     if (day.zeroDoseDay) lines.push('No dose');
     if (day.toleranceBreak) lines.push('Tolerance break');
 

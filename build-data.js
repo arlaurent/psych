@@ -118,6 +118,35 @@ function achievementIsSafe(name) {
   return !CONTENT_EXCLUDE_KEYWORDS.some(kw => lower.includes(kw.toLowerCase()));
 }
 
+// ─── Dose decomposition ─────────────────────────────────────────────────────
+// Available pills: 18mg Concerta, 20mg Inspiral, 36mg Concerta, 54mg Concerta
+// Composite doses must be decomposed into actual pills taken.
+
+const BASE_DOSES = [54, 36, 20, 18]; // greedy decomposition order
+
+function decomposeDose(mg) {
+  if (!mg || mg === 0) return [];
+  if (mg === 15) mg = 18; // known data entry error
+  const pills = [];
+  let remaining = mg;
+  for (const pill of BASE_DOSES) {
+    while (remaining >= pill) {
+      pills.push(pill);
+      remaining -= pill;
+    }
+  }
+  if (remaining > 0) {
+    console.warn(`  Warning: could not fully decompose ${mg}mg (${remaining}mg remainder)`);
+    pills.push(remaining);
+  }
+  return pills.sort((a, b) => b - a); // largest first
+}
+
+function pillType(mg) {
+  if (mg === 20) return 'inspiral';
+  return 'concerta';
+}
+
 // ─── Step 1: Dosing data ────────────────────────────────────────────────────
 
 console.log('Step 1: Loading dosing data...');
@@ -125,15 +154,29 @@ console.log('Step 1: Loading dosing data...');
 const concertaRaw = readJSON(path.join(GOLDSTONE, 'concerta-doses.json'));
 const concertaData = concertaRaw.data;
 
+function correctDose(mg) {
+  if (mg === 15) return 18;
+  return mg;
+}
+
 const doseMap = {};
 for (const d of concertaData) {
   if (d.date >= START_DATE) {
+    // Use actual dose1/dose2 fields when available (more accurate than decomposing total)
+    const d1 = correctDose(d.dose1mg) || null;
+    const d2 = correctDose(d.dose2mg) || null;
+    let pills = [];
+    if (d1 && d2) {
+      pills = [d1, d2].sort((a, b) => b - a);
+    } else if (d1) {
+      pills = decomposeDose(d1);
+    } else if (d2) {
+      pills = decomposeDose(d2);
+    }
+    const totalMg = pills.length ? pills.reduce((a, b) => a + b, 0) : null;
     doseMap[d.date] = {
-      dose1mg: d.dose1mg,
-      dose1time: d.dose1time,
-      dose2mg: d.dose2mg,
-      dose2time: d.dose2time,
-      totalMg: d.totalMg,
+      pills,
+      totalMg,
       zeroDoseDay: d.zeroDoseDay,
       toleranceBreak: d.toleranceBreak
     };
@@ -150,14 +193,12 @@ for (const file of aprilFiles) {
       const med = log.medication || {};
       const d1 = med.dose1 || {};
       const d2 = med.dose2 || {};
-      const d1mg = d1.mg || null;
-      const d2mg = d2.mg || null;
+      const d1mg = d1.mg === 15 ? 18 : (d1.mg || null);
+      const d2mg = d2.mg === 15 ? 18 : (d2.mg || null);
       const total = (d1mg || 0) + (d2mg || 0);
+      const pills = decomposeDose(total || null);
       doseMap[date] = {
-        dose1mg: d1mg,
-        dose1time: d1.time || null,
-        dose2mg: d2mg,
-        dose2time: d2.time || null,
+        pills,
         totalMg: total || null,
         zeroDoseDay: !d1mg && !d2mg,
         toleranceBreak: false
@@ -502,10 +543,7 @@ for (const date of allDates) {
 
   const day = {
     date,
-    dose1mg: dose.dose1mg || null,
-    dose1time: dose.dose1time || null,
-    dose2mg: dose.dose2mg || null,
-    dose2time: dose.dose2time || null,
+    pills: dose.pills || [], // e.g. [54, 36] — each is a real pill
     totalMg: dose.totalMg || null,
     zeroDoseDay: dose.zeroDoseDay != null ? dose.zeroDoseDay : true,
     toleranceBreak: dose.toleranceBreak || false,

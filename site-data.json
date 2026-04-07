@@ -2,10 +2,7 @@
   "days": [
     {
       "date": "2025-08-01",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -23,10 +20,7 @@
     },
     {
       "date": "2025-08-02",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -44,10 +38,7 @@
     },
     {
       "date": "2025-08-03",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -65,10 +56,7 @@
     },
     {
       "date": "2025-08-04",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -86,10 +74,7 @@
     },
     {
       "date": "2025-08-05",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -107,10 +92,7 @@
     },
     {
       "date": "2025-08-06",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -128,10 +110,7 @@
     },
     {
       "date": "2025-08-07",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -149,10 +128,7 @@
     },
     {
       "date": "2025-08-08",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -170,10 +146,7 @@
     },
     {
       "date": "2025-08-09",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -191,10 +164,7 @@
     },
     {
       "date": "2025-08-10",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -212,10 +182,7 @@
     },
     {
       "date": "2025-08-11",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -233,10 +200,7 @@
     },
     {
       "date": "2025-08-12",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -254,10 +218,7 @@
     },
     {
       "date": "2025-08-13",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -275,10 +236,7 @@
     },
     {
       "date": "2025-08-14",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -296,10 +254,7 @@
     },
     {
       "date": "2025-08-15",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -317,10 +272,7 @@
     },
     {
       "date": "2025-08-16",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -338,10 +290,7 @@
     },
     {
       "date": "2025-08-17",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -359,10 +308,7 @@
     },
     {
       "date": "2025-08-18",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -380,10 +326,7 @@
     },
     {
       "date": "2025-08-19",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -401,10 +344,7 @@
     },
     {
       "date": "2025-08-20",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -422,10 +362,7 @@
     },
     {
       "date": "2025-08-21",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -443,10 +380,7 @@
     },
     {
       "date": "2025-08-22",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -464,10 +398,7 @@
     },
     {
       "date": "2025-08-23",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -485,10 +416,7 @@
     },
     {
       "date": "2025-08-24",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -506,10 +434,10 @@
     },
     {
       "date": "2025-08-25",
-      "dose1mg": 72,
-      "dose1time": "10:48",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -527,10 +455,9 @@
     },
     {
       "date": "2025-08-26",
-      "dose1mg": 54,
-      "dose1time": "08:21",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -548,10 +475,10 @@
     },
     {
       "date": "2025-08-27",
-      "dose1mg": 72,
-      "dose1time": "08:49",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -569,10 +496,7 @@
     },
     {
       "date": "2025-08-28",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -590,10 +514,7 @@
     },
     {
       "date": "2025-08-29",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -611,10 +532,7 @@
     },
     {
       "date": "2025-08-30",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -632,10 +550,7 @@
     },
     {
       "date": "2025-08-31",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -653,10 +568,7 @@
     },
     {
       "date": "2025-09-01",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -674,10 +586,7 @@
     },
     {
       "date": "2025-09-02",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -695,10 +604,7 @@
     },
     {
       "date": "2025-09-03",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -716,10 +622,7 @@
     },
     {
       "date": "2025-09-04",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -737,10 +640,7 @@
     },
     {
       "date": "2025-09-05",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -758,10 +658,7 @@
     },
     {
       "date": "2025-09-06",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -779,10 +676,7 @@
     },
     {
       "date": "2025-09-07",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -800,10 +694,7 @@
     },
     {
       "date": "2025-09-08",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -821,10 +712,7 @@
     },
     {
       "date": "2025-09-09",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -842,10 +730,7 @@
     },
     {
       "date": "2025-09-10",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -863,10 +748,7 @@
     },
     {
       "date": "2025-09-11",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -884,10 +766,7 @@
     },
     {
       "date": "2025-09-12",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -905,10 +784,7 @@
     },
     {
       "date": "2025-09-13",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -926,10 +802,7 @@
     },
     {
       "date": "2025-09-14",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -947,10 +820,7 @@
     },
     {
       "date": "2025-09-15",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -968,10 +838,7 @@
     },
     {
       "date": "2025-09-16",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -989,10 +856,7 @@
     },
     {
       "date": "2025-09-17",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1010,10 +874,7 @@
     },
     {
       "date": "2025-09-18",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1031,10 +892,7 @@
     },
     {
       "date": "2025-09-19",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1052,10 +910,7 @@
     },
     {
       "date": "2025-09-20",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1073,10 +928,7 @@
     },
     {
       "date": "2025-09-21",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1094,10 +946,9 @@
     },
     {
       "date": "2025-09-22",
-      "dose1mg": 54,
-      "dose1time": "05:30",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -1115,10 +966,7 @@
     },
     {
       "date": "2025-09-23",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1136,10 +984,7 @@
     },
     {
       "date": "2025-09-24",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1157,10 +1002,7 @@
     },
     {
       "date": "2025-09-25",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1178,10 +1020,7 @@
     },
     {
       "date": "2025-09-26",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1199,10 +1038,7 @@
     },
     {
       "date": "2025-09-27",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1220,10 +1056,7 @@
     },
     {
       "date": "2025-09-28",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1241,10 +1074,7 @@
     },
     {
       "date": "2025-09-29",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1262,10 +1092,7 @@
     },
     {
       "date": "2025-09-30",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1283,10 +1110,7 @@
     },
     {
       "date": "2025-10-01",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1304,10 +1128,7 @@
     },
     {
       "date": "2025-10-02",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1325,10 +1146,7 @@
     },
     {
       "date": "2025-10-03",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1346,10 +1164,7 @@
     },
     {
       "date": "2025-10-04",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1367,10 +1182,7 @@
     },
     {
       "date": "2025-10-05",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1388,10 +1200,7 @@
     },
     {
       "date": "2025-10-06",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1409,10 +1218,7 @@
     },
     {
       "date": "2025-10-07",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1430,10 +1236,7 @@
     },
     {
       "date": "2025-10-08",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1451,10 +1254,7 @@
     },
     {
       "date": "2025-10-09",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1472,10 +1272,7 @@
     },
     {
       "date": "2025-10-10",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1493,10 +1290,7 @@
     },
     {
       "date": "2025-10-11",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1514,10 +1308,7 @@
     },
     {
       "date": "2025-10-12",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1535,10 +1326,7 @@
     },
     {
       "date": "2025-10-13",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1556,10 +1344,7 @@
     },
     {
       "date": "2025-10-14",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1577,10 +1362,7 @@
     },
     {
       "date": "2025-10-15",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1598,10 +1380,7 @@
     },
     {
       "date": "2025-10-16",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1619,10 +1398,7 @@
     },
     {
       "date": "2025-10-17",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1640,10 +1416,7 @@
     },
     {
       "date": "2025-10-18",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1661,10 +1434,7 @@
     },
     {
       "date": "2025-10-19",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1682,10 +1452,7 @@
     },
     {
       "date": "2025-10-20",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1703,10 +1470,7 @@
     },
     {
       "date": "2025-10-21",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1724,10 +1488,7 @@
     },
     {
       "date": "2025-10-22",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1745,10 +1506,7 @@
     },
     {
       "date": "2025-10-23",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1766,10 +1524,7 @@
     },
     {
       "date": "2025-10-24",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1787,10 +1542,7 @@
     },
     {
       "date": "2025-10-25",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1808,10 +1560,7 @@
     },
     {
       "date": "2025-10-26",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1829,10 +1578,7 @@
     },
     {
       "date": "2025-10-27",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1850,10 +1596,7 @@
     },
     {
       "date": "2025-10-28",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1871,10 +1614,7 @@
     },
     {
       "date": "2025-10-29",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1892,10 +1632,7 @@
     },
     {
       "date": "2025-10-30",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1913,10 +1650,7 @@
     },
     {
       "date": "2025-10-31",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1934,10 +1668,7 @@
     },
     {
       "date": "2025-11-01",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1955,10 +1686,7 @@
     },
     {
       "date": "2025-11-02",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1976,10 +1704,7 @@
     },
     {
       "date": "2025-11-03",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -1997,10 +1722,7 @@
     },
     {
       "date": "2025-11-04",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2018,10 +1740,7 @@
     },
     {
       "date": "2025-11-05",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2039,10 +1758,7 @@
     },
     {
       "date": "2025-11-06",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2060,10 +1776,7 @@
     },
     {
       "date": "2025-11-07",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2081,10 +1794,7 @@
     },
     {
       "date": "2025-11-08",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2102,10 +1812,7 @@
     },
     {
       "date": "2025-11-09",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2123,10 +1830,7 @@
     },
     {
       "date": "2025-11-10",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2144,10 +1848,7 @@
     },
     {
       "date": "2025-11-11",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2165,10 +1866,9 @@
     },
     {
       "date": "2025-11-12",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": 18,
-      "dose2time": "13:12",
+      "pills": [
+        18
+      ],
       "totalMg": 18,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -2186,10 +1886,10 @@
     },
     {
       "date": "2025-11-13",
-      "dose1mg": 72,
-      "dose1time": "10:27",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -2207,10 +1907,7 @@
     },
     {
       "date": "2025-11-14",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2228,10 +1925,7 @@
     },
     {
       "date": "2025-11-15",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2249,10 +1943,7 @@
     },
     {
       "date": "2025-11-16",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2270,10 +1961,7 @@
     },
     {
       "date": "2025-11-17",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2291,10 +1979,9 @@
     },
     {
       "date": "2025-11-18",
-      "dose1mg": 18,
-      "dose1time": "09:26",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        18
+      ],
       "totalMg": 18,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -2312,10 +1999,7 @@
     },
     {
       "date": "2025-11-19",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2333,10 +2017,10 @@
     },
     {
       "date": "2025-11-20",
-      "dose1mg": 18,
-      "dose1time": "07:24",
-      "dose2mg": 36,
-      "dose2time": "11:25",
+      "pills": [
+        36,
+        18
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -2354,10 +2038,7 @@
     },
     {
       "date": "2025-11-21",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2375,10 +2056,10 @@
     },
     {
       "date": "2025-11-22",
-      "dose1mg": 36,
-      "dose1time": "12:39",
-      "dose2mg": 36,
-      "dose2time": "17:04",
+      "pills": [
+        36,
+        36
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -2396,10 +2077,7 @@
     },
     {
       "date": "2025-11-23",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2417,10 +2095,9 @@
     },
     {
       "date": "2025-11-24",
-      "dose1mg": 54,
-      "dose1time": "07:16",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -2438,10 +2115,10 @@
     },
     {
       "date": "2025-11-25",
-      "dose1mg": 72,
-      "dose1time": "12:55",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -2459,10 +2136,10 @@
     },
     {
       "date": "2025-11-26",
-      "dose1mg": 72,
-      "dose1time": "11:58",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -2480,10 +2157,9 @@
     },
     {
       "date": "2025-11-27",
-      "dose1mg": 20,
-      "dose1time": "15:05",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        20
+      ],
       "totalMg": 20,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -2501,10 +2177,9 @@
     },
     {
       "date": "2025-11-28",
-      "dose1mg": 54,
-      "dose1time": "10:15",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -2522,10 +2197,7 @@
     },
     {
       "date": "2025-11-29",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2543,10 +2215,7 @@
     },
     {
       "date": "2025-11-30",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2564,10 +2233,7 @@
     },
     {
       "date": "2025-12-01",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2585,10 +2251,7 @@
     },
     {
       "date": "2025-12-02",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2606,10 +2269,7 @@
     },
     {
       "date": "2025-12-03",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2627,10 +2287,7 @@
     },
     {
       "date": "2025-12-04",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2648,10 +2305,7 @@
     },
     {
       "date": "2025-12-05",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2669,10 +2323,7 @@
     },
     {
       "date": "2025-12-06",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2690,10 +2341,7 @@
     },
     {
       "date": "2025-12-07",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2711,10 +2359,7 @@
     },
     {
       "date": "2025-12-08",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2732,10 +2377,7 @@
     },
     {
       "date": "2025-12-09",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2753,10 +2395,7 @@
     },
     {
       "date": "2025-12-10",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2774,10 +2413,7 @@
     },
     {
       "date": "2025-12-11",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2795,10 +2431,7 @@
     },
     {
       "date": "2025-12-12",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2816,10 +2449,7 @@
     },
     {
       "date": "2025-12-13",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2837,10 +2467,7 @@
     },
     {
       "date": "2025-12-14",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -2858,10 +2485,7 @@
     },
     {
       "date": "2025-12-15",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2879,10 +2503,7 @@
     },
     {
       "date": "2025-12-16",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2900,10 +2521,7 @@
     },
     {
       "date": "2025-12-17",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2921,10 +2539,7 @@
     },
     {
       "date": "2025-12-18",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2942,10 +2557,7 @@
     },
     {
       "date": "2025-12-19",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2963,10 +2575,7 @@
     },
     {
       "date": "2025-12-20",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -2984,10 +2593,7 @@
     },
     {
       "date": "2025-12-21",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -3005,10 +2611,7 @@
     },
     {
       "date": "2025-12-22",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -3026,10 +2629,7 @@
     },
     {
       "date": "2025-12-23",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -3047,10 +2647,7 @@
     },
     {
       "date": "2025-12-24",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -3068,10 +2665,7 @@
     },
     {
       "date": "2025-12-25",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -3089,10 +2683,7 @@
     },
     {
       "date": "2025-12-26",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3110,10 +2701,7 @@
     },
     {
       "date": "2025-12-27",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -3131,10 +2719,7 @@
     },
     {
       "date": "2025-12-28",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -3152,10 +2737,7 @@
     },
     {
       "date": "2025-12-29",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -3173,10 +2755,7 @@
     },
     {
       "date": "2025-12-30",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": true,
@@ -3194,10 +2773,9 @@
     },
     {
       "date": "2025-12-31",
-      "dose1mg": 36,
-      "dose1time": "16:11",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        36
+      ],
       "totalMg": 36,
       "zeroDoseDay": false,
       "toleranceBreak": true,
@@ -3215,10 +2793,9 @@
     },
     {
       "date": "2026-01-01",
-      "dose1mg": 18,
-      "dose1time": "14:26",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        18
+      ],
       "totalMg": 18,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3236,10 +2813,7 @@
     },
     {
       "date": "2026-01-02",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3257,10 +2831,7 @@
     },
     {
       "date": "2026-01-03",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3278,10 +2849,7 @@
     },
     {
       "date": "2026-01-04",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3299,10 +2867,9 @@
     },
     {
       "date": "2026-01-05",
-      "dose1mg": 36,
-      "dose1time": "11:28",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        36
+      ],
       "totalMg": 36,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3320,10 +2887,9 @@
     },
     {
       "date": "2026-01-06",
-      "dose1mg": 54,
-      "dose1time": "09:52",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3341,10 +2907,7 @@
     },
     {
       "date": "2026-01-07",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3362,10 +2925,10 @@
     },
     {
       "date": "2026-01-08",
-      "dose1mg": 20,
-      "dose1time": "03:30",
-      "dose2mg": 36,
-      "dose2time": "09:20",
+      "pills": [
+        36,
+        20
+      ],
       "totalMg": 56,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3383,10 +2946,7 @@
     },
     {
       "date": "2026-01-09",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3404,10 +2964,7 @@
     },
     {
       "date": "2026-01-10",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3425,10 +2982,9 @@
     },
     {
       "date": "2026-01-11",
-      "dose1mg": 36,
-      "dose1time": "08:16",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        36
+      ],
       "totalMg": 36,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3446,10 +3002,9 @@
     },
     {
       "date": "2026-01-12",
-      "dose1mg": 54,
-      "dose1time": "10:05",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3467,10 +3022,10 @@
     },
     {
       "date": "2026-01-13",
-      "dose1mg": 18,
-      "dose1time": "04:13",
-      "dose2mg": 36,
-      "dose2time": "11:14",
+      "pills": [
+        36,
+        18
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3488,10 +3043,7 @@
     },
     {
       "date": "2026-01-14",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3509,10 +3061,7 @@
     },
     {
       "date": "2026-01-15",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3530,10 +3079,10 @@
     },
     {
       "date": "2026-01-16",
-      "dose1mg": 72,
-      "dose1time": "12:37",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3551,10 +3100,9 @@
     },
     {
       "date": "2026-01-17",
-      "dose1mg": 20,
-      "dose1time": "16:22",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        20
+      ],
       "totalMg": 20,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3572,10 +3120,7 @@
     },
     {
       "date": "2026-01-18",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3593,10 +3138,9 @@
     },
     {
       "date": "2026-01-19",
-      "dose1mg": 54,
-      "dose1time": "10:17",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3614,10 +3158,9 @@
     },
     {
       "date": "2026-01-20",
-      "dose1mg": 36,
-      "dose1time": "14:26",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        36
+      ],
       "totalMg": 36,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3635,10 +3178,9 @@
     },
     {
       "date": "2026-01-21",
-      "dose1mg": 20,
-      "dose1time": "14:10",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        20
+      ],
       "totalMg": 20,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3656,10 +3198,10 @@
     },
     {
       "date": "2026-01-22",
-      "dose1mg": 72,
-      "dose1time": "08:26",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3677,10 +3219,7 @@
     },
     {
       "date": "2026-01-23",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3698,10 +3237,7 @@
     },
     {
       "date": "2026-01-24",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3719,10 +3255,7 @@
     },
     {
       "date": "2026-01-25",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3740,10 +3273,10 @@
     },
     {
       "date": "2026-01-26",
-      "dose1mg": 72,
-      "dose1time": "11:18",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3761,10 +3294,9 @@
     },
     {
       "date": "2026-01-27",
-      "dose1mg": 54,
-      "dose1time": "11:34",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3795,10 +3327,7 @@
     },
     {
       "date": "2026-01-28",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3829,10 +3358,10 @@
     },
     {
       "date": "2026-01-29",
-      "dose1mg": 72,
-      "dose1time": "15:05",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3850,10 +3379,7 @@
     },
     {
       "date": "2026-01-30",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -3876,10 +3402,9 @@
     },
     {
       "date": "2026-01-31",
-      "dose1mg": 20,
-      "dose1time": "14:51",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        20
+      ],
       "totalMg": 20,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3897,10 +3422,9 @@
     },
     {
       "date": "2026-02-01",
-      "dose1mg": 20,
-      "dose1time": "12:27",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        20
+      ],
       "totalMg": 20,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3918,10 +3442,9 @@
     },
     {
       "date": "2026-02-02",
-      "dose1mg": 54,
-      "dose1time": "08:57",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3939,10 +3462,9 @@
     },
     {
       "date": "2026-02-03",
-      "dose1mg": 20,
-      "dose1time": "21:32",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        20
+      ],
       "totalMg": 20,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3960,10 +3482,10 @@
     },
     {
       "date": "2026-02-04",
-      "dose1mg": 72,
-      "dose1time": "12:08",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -3981,10 +3503,9 @@
     },
     {
       "date": "2026-02-05",
-      "dose1mg": 36,
-      "dose1time": "11:37",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        36
+      ],
       "totalMg": 36,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4027,10 +3548,9 @@
     },
     {
       "date": "2026-02-06",
-      "dose1mg": 20,
-      "dose1time": "11:04",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        20
+      ],
       "totalMg": 20,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4057,10 +3577,7 @@
     },
     {
       "date": "2026-02-07",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4078,10 +3595,7 @@
     },
     {
       "date": "2026-02-08",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4099,10 +3613,9 @@
     },
     {
       "date": "2026-02-09",
-      "dose1mg": 54,
-      "dose1time": "12:47",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4120,10 +3633,10 @@
     },
     {
       "date": "2026-02-10",
-      "dose1mg": 72,
-      "dose1time": "12:40",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4141,10 +3654,9 @@
     },
     {
       "date": "2026-02-11",
-      "dose1mg": 54,
-      "dose1time": "08:06",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4162,10 +3674,7 @@
     },
     {
       "date": "2026-02-12",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4183,10 +3692,7 @@
     },
     {
       "date": "2026-02-13",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4204,10 +3710,10 @@
     },
     {
       "date": "2026-02-14",
-      "dose1mg": 72,
-      "dose1time": "12:16",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4230,10 +3736,7 @@
     },
     {
       "date": "2026-02-15",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4260,10 +3763,10 @@
     },
     {
       "date": "2026-02-16",
-      "dose1mg": 72,
-      "dose1time": "10:22",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4281,10 +3784,9 @@
     },
     {
       "date": "2026-02-17",
-      "dose1mg": 54,
-      "dose1time": "14:33",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4302,10 +3804,10 @@
     },
     {
       "date": "2026-02-18",
-      "dose1mg": 72,
-      "dose1time": "11:10",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4323,10 +3825,9 @@
     },
     {
       "date": "2026-02-19",
-      "dose1mg": 54,
-      "dose1time": "10:28",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4353,10 +3854,7 @@
     },
     {
       "date": "2026-02-20",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4383,10 +3881,9 @@
     },
     {
       "date": "2026-02-21",
-      "dose1mg": 54,
-      "dose1time": "15:48",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4404,10 +3901,10 @@
     },
     {
       "date": "2026-02-22",
-      "dose1mg": 72,
-      "dose1time": "11:50",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4425,10 +3922,9 @@
     },
     {
       "date": "2026-02-23",
-      "dose1mg": 54,
-      "dose1time": "12:27",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4459,10 +3955,7 @@
     },
     {
       "date": "2026-02-24",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4493,10 +3986,7 @@
     },
     {
       "date": "2026-02-25",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4514,10 +4004,9 @@
     },
     {
       "date": "2026-02-26",
-      "dose1mg": 54,
-      "dose1time": "17:04",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4535,10 +4024,9 @@
     },
     {
       "date": "2026-02-27",
-      "dose1mg": 18,
-      "dose1time": "03:38",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        18
+      ],
       "totalMg": 18,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4556,10 +4044,10 @@
     },
     {
       "date": "2026-02-28",
-      "dose1mg": 72,
-      "dose1time": "06:46",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4582,10 +4070,9 @@
     },
     {
       "date": "2026-03-01",
-      "dose1mg": 54,
-      "dose1time": "10:52",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4603,10 +4090,10 @@
     },
     {
       "date": "2026-03-02",
-      "dose1mg": 72,
-      "dose1time": "09:59",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4624,10 +4111,9 @@
     },
     {
       "date": "2026-03-03",
-      "dose1mg": 54,
-      "dose1time": "11:12",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4645,10 +4131,9 @@
     },
     {
       "date": "2026-03-04",
-      "dose1mg": 18,
-      "dose1time": "18:28",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        18
+      ],
       "totalMg": 18,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4666,10 +4151,7 @@
     },
     {
       "date": "2026-03-05",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4687,10 +4169,9 @@
     },
     {
       "date": "2026-03-06",
-      "dose1mg": 54,
-      "dose1time": "10:18",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4713,10 +4194,7 @@
     },
     {
       "date": "2026-03-07",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4739,10 +4217,9 @@
     },
     {
       "date": "2026-03-08",
-      "dose1mg": 54,
-      "dose1time": "11:43",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4760,10 +4237,9 @@
     },
     {
       "date": "2026-03-09",
-      "dose1mg": 54,
-      "dose1time": "10:23",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4781,10 +4257,7 @@
     },
     {
       "date": "2026-03-10",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4802,10 +4275,7 @@
     },
     {
       "date": "2026-03-11",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4823,10 +4293,9 @@
     },
     {
       "date": "2026-03-12",
-      "dose1mg": 54,
-      "dose1time": "11:03",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4844,10 +4313,9 @@
     },
     {
       "date": "2026-03-13",
-      "dose1mg": 54,
-      "dose1time": "12:11",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4870,10 +4338,7 @@
     },
     {
       "date": "2026-03-14",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -4891,10 +4356,9 @@
     },
     {
       "date": "2026-03-15",
-      "dose1mg": 54,
-      "dose1time": "12:05",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4912,10 +4376,10 @@
     },
     {
       "date": "2026-03-16",
-      "dose1mg": 72,
-      "dose1time": "06:24",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4933,10 +4397,10 @@
     },
     {
       "date": "2026-03-17",
-      "dose1mg": 54,
-      "dose1time": "02:41",
-      "dose2mg": 36,
-      "dose2time": "11:09",
+      "pills": [
+        54,
+        36
+      ],
       "totalMg": 90,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4954,10 +4418,9 @@
     },
     {
       "date": "2026-03-18",
-      "dose1mg": 54,
-      "dose1time": "09:17",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -4975,10 +4438,10 @@
     },
     {
       "date": "2026-03-19",
-      "dose1mg": 54,
-      "dose1time": "10:34",
-      "dose2mg": 36,
-      "dose2time": "10:36",
+      "pills": [
+        54,
+        36
+      ],
       "totalMg": 90,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5001,10 +4464,9 @@
     },
     {
       "date": "2026-03-20",
-      "dose1mg": 54,
-      "dose1time": "08:15",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5022,10 +4484,10 @@
     },
     {
       "date": "2026-03-21",
-      "dose1mg": 36,
-      "dose1time": "08:21",
-      "dose2mg": 18,
-      "dose2time": "09:47",
+      "pills": [
+        36,
+        18
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5043,11 +4505,10 @@
     },
     {
       "date": "2026-03-22",
-      "dose1mg": 15,
-      "dose1time": "12:19",
-      "dose2mg": null,
-      "dose2time": null,
-      "totalMg": 15,
+      "pills": [
+        18
+      ],
+      "totalMg": 18,
       "zeroDoseDay": false,
       "toleranceBreak": false,
       "pomodoroCount": 0,
@@ -5064,10 +4525,9 @@
     },
     {
       "date": "2026-03-23",
-      "dose1mg": 54,
-      "dose1time": "08:54",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5085,10 +4545,10 @@
     },
     {
       "date": "2026-03-24",
-      "dose1mg": 90,
-      "dose1time": "05:23",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        36
+      ],
       "totalMg": 90,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5111,10 +4571,10 @@
     },
     {
       "date": "2026-03-25",
-      "dose1mg": 90,
-      "dose1time": "05:23",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        36
+      ],
       "totalMg": 90,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5141,10 +4601,10 @@
     },
     {
       "date": "2026-03-26",
-      "dose1mg": 72,
-      "dose1time": "05:51",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5162,10 +4622,10 @@
     },
     {
       "date": "2026-03-27",
-      "dose1mg": 18,
-      "dose1time": "06:23",
-      "dose2mg": 36,
-      "dose2time": "10:36",
+      "pills": [
+        36,
+        18
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5183,10 +4643,10 @@
     },
     {
       "date": "2026-03-28",
-      "dose1mg": 18,
-      "dose1time": "09:02",
-      "dose2mg": 36,
-      "dose2time": "15:25",
+      "pills": [
+        36,
+        18
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5204,10 +4664,7 @@
     },
     {
       "date": "2026-03-29",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -5225,10 +4682,9 @@
     },
     {
       "date": "2026-03-30",
-      "dose1mg": 54,
-      "dose1time": "12:08",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5246,10 +4702,7 @@
     },
     {
       "date": "2026-03-31",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -5272,10 +4725,10 @@
     },
     {
       "date": "2026-04-01",
-      "dose1mg": 36,
-      "dose1time": "14:12",
-      "dose2mg": 54,
-      "dose2time": "16:54",
+      "pills": [
+        54,
+        36
+      ],
       "totalMg": 90,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5293,10 +4746,7 @@
     },
     {
       "date": "2026-04-02",
-      "dose1mg": null,
-      "dose1time": null,
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [],
       "totalMg": null,
       "zeroDoseDay": true,
       "toleranceBreak": false,
@@ -5314,10 +4764,9 @@
     },
     {
       "date": "2026-04-03",
-      "dose1mg": 54,
-      "dose1time": "14:45",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5335,10 +4784,10 @@
     },
     {
       "date": "2026-04-04",
-      "dose1mg": 18,
-      "dose1time": "07:05",
-      "dose2mg": 54,
-      "dose2time": "13:30",
+      "pills": [
+        54,
+        18
+      ],
       "totalMg": 72,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5356,10 +4805,9 @@
     },
     {
       "date": "2026-04-05",
-      "dose1mg": 54,
-      "dose1time": "12:52",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5377,10 +4825,10 @@
     },
     {
       "date": "2026-04-06",
-      "dose1mg": 90,
-      "dose1time": "11:58",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54,
+        36
+      ],
       "totalMg": 90,
       "zeroDoseDay": false,
       "toleranceBreak": false,
@@ -5398,10 +4846,9 @@
     },
     {
       "date": "2026-04-07",
-      "dose1mg": 54,
-      "dose1time": "11:53",
-      "dose2mg": null,
-      "dose2time": null,
+      "pills": [
+        54
+      ],
       "totalMg": 54,
       "zeroDoseDay": false,
       "toleranceBreak": false,
