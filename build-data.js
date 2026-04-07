@@ -589,11 +589,23 @@ const stats = {
 // ─── Write site-data.json (public-safe) ─────────────────────────────────────
 
 const siteData = { days, annotations, stats };
+const siteDataJSON = JSON.stringify(siteData);
 fs.writeFileSync(
   path.join(__dirname, 'site-data.json'),
   JSON.stringify(siteData, null, 2)
 );
 console.log(`Wrote site-data.json (${days.length} days)`);
+
+// Inject inline data into index.html for local file:// access
+const indexPath = path.join(__dirname, 'index.html');
+let html = fs.readFileSync(indexPath, 'utf8');
+const dataTag = `<script>window.SITE_DATA=${siteDataJSON};</script>`;
+// Remove old inline data if present
+html = html.replace(/<script>window\.SITE_DATA=.*?<\/script>\n?/, '');
+// Insert before closing </body>
+html = html.replace('</body>', dataTag + '\n</body>');
+fs.writeFileSync(indexPath, html);
+console.log('Injected inline data into index.html');
 
 // ─── Write enriched-data.json (.gitignored) ─────────────────────────────────
 
