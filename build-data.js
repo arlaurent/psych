@@ -601,9 +601,9 @@ const indexPath = path.join(__dirname, 'index.html');
 let html = fs.readFileSync(indexPath, 'utf8');
 const dataTag = `<script>window.SITE_DATA=${siteDataJSON};</script>`;
 // Remove old inline data if present
-html = html.replace(/<script>window\.SITE_DATA=.*?<\/script>\n?/, '');
-// Insert before closing </body>
-html = html.replace('</body>', dataTag + '\n</body>');
+html = html.replace(/<script>window\.SITE_DATA=.*?<\/script>\n?/g, '');
+// Insert before the main script block
+html = html.replace('<script>\n(async function()', dataTag + '\n<script>\n(async function()');
 fs.writeFileSync(indexPath, html);
 console.log('Injected inline data into index.html');
 
