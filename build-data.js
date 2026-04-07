@@ -510,10 +510,10 @@ console.log(`  ${archiveProcessed} archive files processed, ${archiveSkipped} ex
 
 const annotations = [
   { date: '2025-08-30', type: 'event', label: 'Informed of biological father\'s death' },
-  { start: '2025-08-30', end: '2025-10-31', type: 'period', label: 'Grief — no medication' },
-  { start: '2025-12-01', end: '2025-12-27', type: 'period', label: 'Tolerance break' },
-  { start: '2026-02-11', end: '2026-02-18', type: 'period', label: 'Illness (GI)' },
-  { start: '2026-03-07', end: '2026-03-12', type: 'period', label: 'Illness (flu)' },
+  { start: '2025-08-30', end: '2025-10-31', type: 'period', periodType: 'grief', label: 'Grief — no medication' },
+  { start: '2025-12-01', end: '2025-12-27', type: 'period', periodType: 'tolerance', label: 'Tolerance break' },
+  { start: '2026-02-11', end: '2026-02-18', type: 'period', periodType: 'illness', label: 'Illness (GI)' },
+  { start: '2026-03-07', end: '2026-03-12', type: 'period', periodType: 'illness', label: 'Illness (flu)' },
   { date: '2026-03-24', type: 'event', label: 'Paper-lantern experiment begins' }
 ];
 
