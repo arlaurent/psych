@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concerta &amp; Wellbeing — Aug 2025–Apr 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-mono/style.min.css" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #fafaf8;
+  --text: #1a1a1a;
+  --text-secondary: #999;
+  --text-tertiary: #bbb;
+  --border: #e8e4de;
+  --dose1: #d4952e;
+  --dose2: #3d8b5e;
+  --wellbeing-pos: #3d8b5e;
+  --wellbeing-neg: #b84f47;
+  --annotation-bg: #f5f0e8;
+  --grief-bg: #f0ece4;
+  --nav-bg: rgba(250, 250, 248, 0.92);
+  --nav-active: #1a1a1a;
+  --nav-inactive: #bbb;
+  --focus-bar: #c4b5a0;
+  --achievement: #d4952e;
+  --font-sans: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Geist Mono', 'SF Mono', 'Menlo', monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151515;
+    --text: #ddd;
+    --text-secondary: #888;
+    --text-tertiary: #555;
+    --border: #2a2a2a;
+    --dose1: #e8a838;
+    --dose2: #5db87a;
+    --wellbeing-pos: #5db87a;
+    --wellbeing-neg: #d4645c;
+    --annotation-bg: #1e1c18;
+    --grief-bg: #1a1816;
+    --nav-bg: rgba(21, 21, 21, 0.92);
+    --nav-active: #eee;
+    --nav-inactive: #555;
+    --focus-bar: #6b5f4f;
+    --achievement: #e8a838;
+  }
+}
+
+html {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 0 16px;
+  padding-bottom: 120px;
+}
+
+/* ─── Month navigation bar ─── */
+
+.month-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--nav-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  margin: 0 -16px;
+  padding: 0 16px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.month-nav::-webkit-scrollbar { display: none; }
+
+.month-nav-inner {
+  display: flex;
+  gap: 0;
+  min-width: max-content;
+}
+
+.month-nav a {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  color: var(--nav-inactive);
+  text-decoration: none;
+  padding: 12px 10px;
+  flex-shrink: 0;
+  transition: color 0.15s;
+  cursor: pointer;
+}
+
+.month-nav a.active {
+  color: var(--nav-active);
+  font-weight: 500;
+}
+
+.month-nav a:hover {
+  color: var(--text-secondary);
+}
+
+/* ─── Header ─── */
+
+.header {
+  padding: 32px 0 24px;
+}
+
+.header h1 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.header .date-range {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.header .notes {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.header .notes p {
+  margin-bottom: 8px;
+}
+
+.header .notes em {
+  color: var(--text);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.stats-row {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-top: 1px;
+}
+
+/* ─── Month sections ─── */
+
+.month-section {
+  margin-top: 32px;
+}
+
+.month-label {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2px;
+  position: sticky;
+  top: 41px;
+  background: var(--bg);
+  z-index: 50;
+}
+
+/* ─── Day rows ─── */
+
+.day-row {
+  display: grid;
+  grid-template-columns: 24px 52px 1fr 48px;
+  align-items: center;
+  height: 34px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  border-bottom: 1px solid transparent;
+}
+
+.day-row:hover {
+  background: var(--annotation-bg);
+}
+
+.day-num {
+  color: var(--text-secondary);
+  font-size: 12px;
+  text-align: right;
+  padding-right: 8px;
+}
+
+.dose-dots {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-left: 4px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.dot.d1 { background: var(--dose1); }
+.dot.d2 { background: var(--dose2); }
+
+.day-center {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 8px;
+  overflow: hidden;
+}
+
+.total-mg {
+  font-size: 12px;
+  color: var(--text);
+  min-width: 36px;
+}
+
+.total-mg.zero {
+  color: var(--text-tertiary);
+}
+
+.focus-bar-wrap {
+  width: 40px;
+  height: 5px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.focus-bar-fill {
+  height: 100%;
+  background: var(--focus-bar);
+  border-radius: 2px;
+  transition: width 0.2s;
+}
+
+.pom-count {
+  font-size: 10px;
+  color: var(--text-tertiary);
+  min-width: 14px;
+}
+
+.achievement-icon {
+  font-size: 10px;
+  flex-shrink: 0;
+}
+
+.wellbeing {
+  text-align: right;
+  font-size: 11px;
+  font-family: var(--font-mono);
+  padding-right: 2px;
+}
+
+.wellbeing.pos { color: var(--wellbeing-pos); }
+.wellbeing.neg { color: var(--wellbeing-neg); }
+.wellbeing.neutral { color: var(--text-tertiary); }
+
+/* ─── Annotations ─── */
+
+.annotation-row {
+  padding: 8px 0 8px 36px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.annotation-row .marker {
+  color: var(--dose1);
+  font-size: 10px;
+}
+
+.period-band {
+  background: var(--grief-bg);
+  border-left: 2px solid var(--border);
+  margin: 0 -16px;
+  padding: 0 16px;
+}
+
+.period-label {
+  font-size: 11px;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-style: italic;
+  padding: 6px 0 2px 36px;
+}
+
+/* ─── Tooltip ─── */
+
+.tooltip {
+  position: fixed;
+  z-index: 200;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1.5;
+  max-width: 240px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.12s;
+}
+
+.tooltip.show { opacity: 1; }
+
+/* ─── Legend ─── */
+
+.legend {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 12px 0;
+  margin-bottom: 8px;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ─── Responsive ─── */
+
+@media (max-width: 400px) {
+  .day-row {
+    grid-template-columns: 22px 44px 1fr 40px;
+    height: 32px;
+    font-size: 12px;
+  }
+  .dot { width: 8px; height: 8px; }
+  .total-mg { font-size: 11px; min-width: 30px; }
+  .focus-bar-wrap { width: 30px; }
+  .stats-row { gap: 16px; }
+  .stat-value { font-size: 16px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="month-nav" id="monthNav">
+  <div class="month-nav-inner" id="monthNavInner"></div>
+</nav>
+
+<header class="header">
+  <h1>Concerta &amp; Wellbeing</h1>
+  <div class="date-range" id="dateRange"></div>
+  <div class="notes">
+    <p><em>Wellbeing score (−5 to +5)</em> is derived from self-reported focus ratings, task completion, energy levels, and keyword sentiment from session notes. It is a composite signal, not a clinical measure.</p>
+    <p><em>Zero-dose days</em> correlate with being significantly upset, sick, on weekends, or during a deliberate tolerance break. Gaps are meaningful, not accidental.</p>
+  </div>
+  <div class="stats-row" id="statsRow"></div>
+</header>
+
+<div class="legend">
+  <span class="legend-item"><span class="legend-dot" style="background:var(--dose1)"></span>Dose 1</span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--dose2)"></span>Dose 2</span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--focus-bar);width:16px;height:5px;border-radius:2px"></span>Focus</span>
+  <span class="legend-item" style="color:var(--wellbeing-pos)">+wb</span>
+  <span class="legend-item" style="color:var(--wellbeing-neg)">−wb</span>
+</div>
+
+<main id="timeline"></main>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+(async function() {
+  const res = await fetch('site-data.json');
+  const data = await res.json();
+  const { days, annotations, stats } = data;
+
+  // ─── Stats ──────────────────────────────────────────────
+  document.getElementById('dateRange').textContent =
+    `${formatDateShort(stats.dateRange.start)} — ${formatDateShort(stats.dateRange.end)}`;
+
+  const statsRow = document.getElementById('statsRow');
+  const statItems = [
+    [stats.daysWithData, 'days tracked'],
+    [stats.medianDoseMg ? stats.medianDoseMg + 'mg' : '—', 'median dose'],
+    [stats.totalPomodoros, 'pomodoros'],
+    [stats.avgWellbeing != null ? (stats.avgWellbeing > 0 ? '+' : '') + stats.avgWellbeing : '—', 'avg wellbeing'],
+    [stats.totalAchievements, 'achievements']
+  ];
+  for (const [val, label] of statItems) {
+    const el = document.createElement('div');
+    el.className = 'stat';
+    el.innerHTML = `<span class="stat-value">${val}</span><span class="stat-label">${label}</span>`;
+    statsRow.appendChild(el);
+  }
+
+  // ─── Build annotation lookup ────────────────────────────
+  const pointAnnotations = {};
+  const periodAnnotations = [];
+  for (const a of annotations) {
+    if (a.type === 'event') {
+      pointAnnotations[a.date] = a.label;
+    } else if (a.type === 'period') {
+      periodAnnotations.push(a);
+    }
+  }
+
+  function isInPeriod(date) {
+    for (const p of periodAnnotations) {
+      if (date >= p.start && date <= p.end) return p;
+    }
+    return null;
+  }
+
+  // ─── Group days by month ────────────────────────────────
+  const months = {};
+  for (const day of days) {
+    const m = day.date.slice(0, 7);
+    if (!months[m]) months[m] = [];
+    months[m].push(day);
+  }
+
+  const monthKeys = Object.keys(months).sort();
+
+  // ─── Build month nav ───────────────────────────────────
+  const monthNav = document.getElementById('monthNavInner');
+  const MONTH_NAMES = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+  for (const mk of monthKeys) {
+    const [y, m] = mk.split('-');
+    const a = document.createElement('a');
+    a.textContent = MONTH_NAMES[parseInt(m) - 1].toUpperCase();
+    a.dataset.month = mk;
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = document.getElementById('month-' + mk);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    monthNav.appendChild(a);
+  }
+
+  // ─── Render timeline ───────────────────────────────────
+  const timeline = document.getElementById('timeline');
+  const tooltip = document.getElementById('tooltip');
+
+  for (const mk of monthKeys) {
+    const monthDays = months[mk];
+    const [y, m] = mk.split('-');
+    const monthName = new Date(y, parseInt(m) - 1).toLocaleString('en', { month: 'long' });
+
+    const section = document.createElement('section');
+    section.className = 'month-section';
+    section.id = 'month-' + mk;
+
+    const label = document.createElement('div');
+    label.className = 'month-label';
+    label.textContent = `${monthName.toUpperCase()} ${y}`;
+    section.appendChild(label);
+
+    // Period annotation at start of month if applicable
+    const firstDay = monthDays[0];
+    const period = isInPeriod(firstDay.date);
+    if (period && firstDay.date.endsWith('-01')) {
+      const pl = document.createElement('div');
+      pl.className = 'period-label';
+      pl.textContent = period.label;
+      section.appendChild(pl);
+    }
+
+    let currentPeriod = null;
+    let bandDiv = null;
+
+    for (const day of monthDays) {
+      const dayNum = parseInt(day.date.slice(8));
+      const thisPeriod = isInPeriod(day.date);
+
+      // Start/end period bands
+      if (thisPeriod && thisPeriod !== currentPeriod) {
+        bandDiv = document.createElement('div');
+        bandDiv.className = 'period-band';
+        if (currentPeriod === null || currentPeriod !== thisPeriod) {
+          const pl = document.createElement('div');
+          pl.className = 'period-label';
+          pl.textContent = thisPeriod.label;
+          bandDiv.appendChild(pl);
+        }
+        section.appendChild(bandDiv);
+        currentPeriod = thisPeriod;
+      } else if (!thisPeriod && currentPeriod) {
+        bandDiv = null;
+        currentPeriod = null;
+      }
+
+      // Point annotation
+      if (pointAnnotations[day.date]) {
+        const ann = document.createElement('div');
+        ann.className = 'annotation-row';
+        ann.innerHTML = `<span class="marker">▸</span> ${pointAnnotations[day.date]}`;
+        if (bandDiv) bandDiv.appendChild(ann);
+        else section.appendChild(ann);
+      }
+
+      // Day row
+      const row = document.createElement('div');
+      row.className = 'day-row';
+
+      // Day number
+      const numEl = document.createElement('div');
+      numEl.className = 'day-num';
+      numEl.textContent = dayNum;
+      row.appendChild(numEl);
+
+      // Dose dots
+      const dotsEl = document.createElement('div');
+      dotsEl.className = 'dose-dots';
+      if (day.dose1mg) {
+        const d1 = document.createElement('span');
+        d1.className = 'dot d1';
+        dotsEl.appendChild(d1);
+      }
+      if (day.dose2mg) {
+        const d2 = document.createElement('span');
+        d2.className = 'dot d2';
+        dotsEl.appendChild(d2);
+      }
+      row.appendChild(dotsEl);
+
+      // Center: total mg + focus bar + pom count + achievement
+      const centerEl = document.createElement('div');
+      centerEl.className = 'day-center';
+
+      const mgEl = document.createElement('span');
+      mgEl.className = 'total-mg' + (day.zeroDoseDay ? ' zero' : '');
+      mgEl.textContent = day.totalMg ? day.totalMg + 'mg' : '—';
+      centerEl.appendChild(mgEl);
+
+      if (day.avgFocus != null) {
+        const barWrap = document.createElement('span');
+        barWrap.className = 'focus-bar-wrap';
+        const barFill = document.createElement('span');
+        barFill.className = 'focus-bar-fill';
+        barFill.style.width = (day.avgFocus / 10 * 100) + '%';
+        barWrap.appendChild(barFill);
+        centerEl.appendChild(barWrap);
+      }
+
+      if (day.pomodoroCount > 0) {
+        const pomEl = document.createElement('span');
+        pomEl.className = 'pom-count';
+        pomEl.textContent = day.pomodoroCount + 'p';
+        centerEl.appendChild(pomEl);
+      }
+
+      if (day.achievements.length > 0) {
+        const achEl = document.createElement('span');
+        achEl.className = 'achievement-icon';
+        achEl.textContent = '★';
+        achEl.style.color = 'var(--achievement)';
+        centerEl.appendChild(achEl);
+      }
+
+      row.appendChild(centerEl);
+
+      // Wellbeing score
+      const wbEl = document.createElement('div');
+      wbEl.className = 'wellbeing';
+      if (day.wellbeingScore != null) {
+        const val = day.wellbeingScore;
+        wbEl.textContent = (val > 0 ? '+' : '') + val.toFixed(1);
+        wbEl.classList.add(val > 0.3 ? 'pos' : val < -0.3 ? 'neg' : 'neutral');
+      }
+      row.appendChild(wbEl);
+
+      // Tooltip on hover
+      row.addEventListener('mouseenter', (e) => showTooltip(e, day));
+      row.addEventListener('mouseleave', () => hideTooltip());
+      row.addEventListener('touchstart', (e) => { showTooltip(e, day); }, { passive: true });
+
+      if (bandDiv) bandDiv.appendChild(row);
+      else section.appendChild(row);
+    }
+
+    timeline.appendChild(section);
+  }
+
+  // ─── IntersectionObserver for nav highlighting ─────────
+  const navLinks = document.querySelectorAll('.month-nav a');
+  const navMap = {};
+  navLinks.forEach(a => { navMap[a.dataset.month] = a; });
+
+  const observer = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      const mk = entry.target.id.replace('month-', '');
+      if (entry.isIntersecting) {
+        navLinks.forEach(a => a.classList.remove('active'));
+        if (navMap[mk]) {
+          navMap[mk].classList.add('active');
+          navMap[mk].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        }
+      }
+    }
+  }, { rootMargin: '-80px 0px -70% 0px', threshold: 0 });
+
+  document.querySelectorAll('.month-section').forEach(s => observer.observe(s));
+
+  // ─── Tooltip ───────────────────────────────────────────
+  function showTooltip(e, day) {
+    const lines = [];
+    const d = new Date(day.date + 'T12:00:00');
+    const dayName = d.toLocaleDateString('en', { weekday: 'short' });
+    lines.push(`${dayName} ${formatDateShort(day.date)}`);
+
+    if (day.dose1mg) lines.push(`Dose 1: ${day.dose1mg}mg` + (day.dose1time ? ` @ ${day.dose1time}` : ''));
+    if (day.dose2mg) lines.push(`Dose 2: ${day.dose2mg}mg` + (day.dose2time ? ` @ ${day.dose2time}` : ''));
+    if (day.totalMg) lines.push(`Total: ${day.totalMg}mg`);
+    if (day.zeroDoseDay) lines.push('No dose');
+    if (day.toleranceBreak) lines.push('Tolerance break');
+
+    if (day.pomodoroCount) lines.push(`${day.pomodoroCount} pomodoro${day.pomodoroCount > 1 ? 's' : ''} (${day.completedPomodoros} completed)`);
+    if (day.avgFocus != null) lines.push(`Avg focus: ${day.avgFocus.toFixed(1)}/10`);
+    if (day.avgEnergy != null) lines.push(`Energy: ${day.avgEnergy}/10`);
+    if (day.wellbeingScore != null) lines.push(`Wellbeing: ${day.wellbeingScore > 0 ? '+' : ''}${day.wellbeingScore.toFixed(1)}`);
+    if (day.dayStatus && day.dayStatus !== 'normal') lines.push(`Status: ${day.dayStatus}`);
+    if (day.achievements.length) {
+      lines.push('');
+      for (const a of day.achievements) lines.push(`${a.icon} ${a.name}`);
+    }
+
+    tooltip.innerHTML = lines.join('<br>');
+    tooltip.classList.add('show');
+
+    const rect = (e.touches ? e.touches[0] : e);
+    const x = (rect.clientX || rect.pageX) + 12;
+    const y = (rect.clientY || rect.pageY) - 10;
+    tooltip.style.left = Math.min(x, window.innerWidth - 260) + 'px';
+    tooltip.style.top = y + 'px';
+  }
+
+  function hideTooltip() {
+    tooltip.classList.remove('show');
+  }
+
+  // ─── Helpers ───────────────────────────────────────────
+  function formatDateShort(dateStr) {
+    const d = new Date(dateStr + 'T12:00:00');
+    return d.toLocaleDateString('en', { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+})();
+</script>
+</body>
+</html>
