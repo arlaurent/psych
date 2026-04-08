@@ -1,3 +1,4 @@
 enriched-data.json
+.build-paths.json
 node_modules/
 .DS_Store

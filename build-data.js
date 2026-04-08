@@ -4,9 +4,10 @@ const path = require('path');
 
 // ─── Configuration ──────────────────────────────────────────────────────────
 
-const GOLDSTONE = '/Users/anna/Documents/claude/data/goldstone/derivative';
-const DAILY_LOGS = '/Users/anna/Projects/Development/track/data/daily-logs';
-const PRIOR_ARCHIVE = '/Users/anna/Documents/claude/prior archive';
+const buildPaths = JSON.parse(fs.readFileSync(path.join(__dirname, '.build-paths.json'), 'utf8'));
+const GOLDSTONE = buildPaths.goldstone;
+const DAILY_LOGS = buildPaths.dailyLogs;
+const PRIOR_ARCHIVE = buildPaths.priorArchive;
 
 const START_DATE = '2025-08-01';
 
@@ -25,6 +26,20 @@ const CONTENT_EXCLUDE_KEYWORDS = [
 ];
 
 const MEDICATION_EXCLUDE = ['bicalutamide'];
+
+// Achievement names: strip to generic labels (names, business details, legal matters are PII)
+const ACHIEVEMENT_PII_KEYWORDS = [
+  'tirzepatide', 'ozempic', 'mounjaro', 'wegovy',
+  ...CONTENT_EXCLUDE_KEYWORDS
+];
+
+function sanitizeAchievementName(name) {
+  if (!name) return null;
+  const lower = name.toLowerCase();
+  // Exclude if contains excluded medication or private keywords
+  if (ACHIEVEMENT_PII_KEYWORDS.some(kw => lower.includes(kw.toLowerCase()))) return null;
+  return name;
+}
 
 // ─── Sentiment lexicons ─────────────────────────────────────────────────────
 
@@ -282,12 +297,11 @@ for (const file of dailyLogFiles) {
       symptomMap[date] = { moderateSevereCount: severityCount };
     }
 
-    // Achievements
+    // Achievements — store count only in public output (names contain PII)
     if (log.completedConstellationTodos && log.completedConstellationTodos.length) {
       const safe = log.completedConstellationTodos
-        .filter(t => achievementIsSafe(t.name))
-        .map(t => ({ name: t.name, icon: t.icon || '✓' }));
-      if (safe.length) achievementMap[date] = safe;
+        .filter(t => achievementIsSafe(t.name) && sanitizeAchievementName(t.name));
+      if (safe.length) achievementMap[date] = { count: safe.length };
     }
 
     // Collect text for sentiment (pomodoro journals + break comments) — analyze, don't store
@@ -532,8 +546,9 @@ for (const date of allDates) {
   const dose = doseMap[date] || {};
   const prod = prodMap[date] || {};
   const emo = emotionMap[date] || {};
-  const achievements = achievementMap[date] || [];
-  totalAchievements += achievements.length;
+  const achievements = achievementMap[date] || { count: 0 };
+  const achievementCount = achievements.count || 0;
+  totalAchievements += achievementCount;
 
   if (dose.totalMg) {
     doseDays++;
@@ -557,7 +572,7 @@ for (const date of allDates) {
     functionalScore: emo.functionalScore != null ? emo.functionalScore : null,
     wellbeingScore: emo.wellbeingScore != null ? emo.wellbeingScore : null,
     avgEnergy: energyMap[date] ? energyMap[date].avgEnergy : null,
-    achievements
+    achievementCount
   };
 
   days.push(day);
