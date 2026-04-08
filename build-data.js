@@ -586,9 +586,59 @@ const stats = {
   totalAchievements
 };
 
+// ─── Compute analytics ──────────────────────────────────────────────────────
+
+function avg(arr) { return arr.length ? Math.round((arr.reduce((a,b)=>a+b,0)/arr.length)*10)/10 : null; }
+
+// Dose-response
+const doseResponse = {};
+for (const d of days) {
+  if (d.pomodoroCount === 0 && d.avgFocus == null) continue;
+  const dose = d.totalMg || 0;
+  if (!doseResponse[dose]) doseResponse[dose] = { focuses: [], poms: [], wellbeing: [], n: 0 };
+  doseResponse[dose].n++;
+  if (d.avgFocus != null) doseResponse[dose].focuses.push(d.avgFocus);
+  doseResponse[dose].poms.push(d.pomodoroCount);
+  if (d.wellbeingScore != null) doseResponse[dose].wellbeing.push(d.wellbeingScore);
+}
+
+const doseResponseTable = Object.entries(doseResponse)
+  .sort((a,b) => Number(a[0]) - Number(b[0]))
+  .map(([dose, g]) => ({
+    dose: Number(dose),
+    n: g.n,
+    avgFocus: avg(g.focuses),
+    avgPoms: avg(g.poms),
+    avgWellbeing: avg(g.wellbeing)
+  }));
+
+// Split dosing
+const splitStats = { single: { focuses: [], poms: [], wellbeing: [], n: 0 }, split: { focuses: [], poms: [], wellbeing: [], n: 0 } };
+for (const d of days) {
+  if (!d.pills || d.pills.length === 0) continue;
+  const group = d.pills.length > 1 ? splitStats.split : splitStats.single;
+  group.n++;
+  if (d.avgFocus != null) group.focuses.push(d.avgFocus);
+  group.poms.push(d.pomodoroCount);
+  if (d.wellbeingScore != null) group.wellbeing.push(d.wellbeingScore);
+}
+
+const splitDosing = {
+  single: { n: splitStats.single.n, avgFocus: avg(splitStats.single.focuses), avgPoms: avg(splitStats.single.poms), avgWellbeing: avg(splitStats.single.wellbeing) },
+  split: { n: splitStats.split.n, avgFocus: avg(splitStats.split.focuses), avgPoms: avg(splitStats.split.poms), avgWellbeing: avg(splitStats.split.wellbeing) }
+};
+
+// 90mg days detail
+const ninetyMgDays = days.filter(d => d.totalMg === 90).map(d => ({
+  date: d.date, pills: d.pills, pomodoroCount: d.pomodoroCount,
+  avgFocus: d.avgFocus, wellbeingScore: d.wellbeingScore
+}));
+
+const analytics = { doseResponseTable, splitDosing, ninetyMgDays };
+
 // ─── Write site-data.json (public-safe) ─────────────────────────────────────
 
-const siteData = { days, annotations, stats };
+const siteData = { days, annotations, stats, analytics };
 const siteDataJSON = JSON.stringify(siteData);
 fs.writeFileSync(
   path.join(__dirname, 'site-data.json'),
