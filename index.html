@@ -300,7 +300,9 @@ body {
 }
 
 .wellbeing {
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 11px;
   font-family: var(--font-mono);
   padding-right: 2px;
@@ -783,27 +785,27 @@ body {
         centerEl.appendChild(pomEl);
       }
 
-      if (day.achievementCount > 0) {
-        const achEl = document.createElement('span');
-        achEl.className = 'achievement-icon';
-        const achEmojis = ['✨', '🌟', '💫', '⭐', '🌸'];
-        achEl.textContent = achEmojis[Math.floor(Math.random() * achEmojis.length)];
-        achEl.style.fontSize = '11px';
-        centerEl.appendChild(achEl);
-      }
-
       row.appendChild(centerEl);
 
       // Wellbeing score
       const wbEl = document.createElement('div');
       wbEl.className = 'wellbeing';
+      if (day.achievementCount > 0) {
+        const achSpan = document.createElement('span');
+        achSpan.textContent = '✨';
+        achSpan.style.fontSize = '11px';
+        wbEl.appendChild(achSpan);
+      }
       if (day.wellbeingScore != null) {
         const val = day.wellbeingScore;
-        wbEl.textContent = (val > 0 ? '+' : '') + val.toFixed(1);
+        const scoreSpan = document.createElement('span');
+        scoreSpan.textContent = (val > 0 ? '+' : '') + val.toFixed(1);
+        scoreSpan.style.marginLeft = 'auto';
+        wbEl.appendChild(scoreSpan);
         const abs = Math.min(Math.abs(val), 5);
         const t = abs / 5; // 0 = neutral, 1 = full intensity
         if (Math.abs(val) <= 0.3) {
-          wbEl.style.color = 'var(--text-tertiary)';
+          scoreSpan.style.color = 'var(--text-tertiary)';
         } else {
           // Interpolate RGB between tertiary and pos/neg
           const neutral = isDark ? [85, 85, 85] : [187, 187, 187];
@@ -813,7 +815,7 @@ body {
           const r = Math.round(neutral[0] + (target[0] - neutral[0]) * t);
           const g = Math.round(neutral[1] + (target[1] - neutral[1]) * t);
           const b = Math.round(neutral[2] + (target[2] - neutral[2]) * t);
-          wbEl.style.color = `rgb(${r},${g},${b})`;
+          scoreSpan.style.color = `rgb(${r},${g},${b})`;
         }
       }
       row.appendChild(wbEl);
